@@ -57,7 +57,7 @@ services:
       - PMA_HOST=ogrencibaksana_mysql
       - PMA_PORT=3306
       - PMA_USER=root
-      - PMA_PASSWORD=ogrencibaksana_root
+      - PMA_PASSWORD=root
     volumes:
       - './phpmyadmin/php.ini:/usr/local/etc/php/php.ini'
   cntnr_ogrencibaksana_redis:

@@ -4,7 +4,7 @@ namespace App\Repositories\Coupon;
 
 use App\Repositories\BaseRepository;
 
-interface CouponRepositoryInterface
+class CouponRepository extends BaseRepository implements CouponRepositoryInterface
 {
 
 }

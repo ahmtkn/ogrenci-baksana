@@ -115,6 +115,14 @@
       <excludeFolder url="file://$MODULE_DIR$/projects/vendor/dragonmantank/cron-expression" />
       <excludeFolder url="file://$MODULE_DIR$/projects/vendor/tijsverkoyen/css-to-inline-styles" />
       <excludeFolder url="file://$MODULE_DIR$/projects/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/projects/vendor/ezyang/htmlpurifier" />
+      <excludeFolder url="file://$MODULE_DIR$/projects/vendor/myclabs/php-enum" />
+      <excludeFolder url="file://$MODULE_DIR$/projects/vendor/phpoffice/phpspreadsheet" />
+      <excludeFolder url="file://$MODULE_DIR$/projects/vendor/markbaker/matrix" />
+      <excludeFolder url="file://$MODULE_DIR$/projects/vendor/markbaker/complex" />
+      <excludeFolder url="file://$MODULE_DIR$/projects/vendor/maatwebsite/excel" />
+      <excludeFolder url="file://$MODULE_DIR$/projects/vendor/maennchen/zipstream-php" />
+      <excludeFolder url="file://$MODULE_DIR$/projects/vendor/realrashid/sweet-alert" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

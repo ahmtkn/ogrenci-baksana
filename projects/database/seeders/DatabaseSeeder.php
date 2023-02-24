@@ -20,5 +20,6 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
         $this->call(CampaignTableSeeder::class);
+        $this->call(CampaignCouponTableSeeder::class);
     }
 }

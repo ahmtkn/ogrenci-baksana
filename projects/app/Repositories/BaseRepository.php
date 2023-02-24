@@ -24,5 +24,15 @@ class BaseRepository implements BaseRepositoryInterface
         return $this->model->with($relationships)->get();
     }
 
+    public function getByField(array $fields = [], array $relationships = [])
+    {
+        return $this->model->with($relationships)->where($fields)->first();
+    }
+
+    public function getByFields(array $fields = [], array $relationships = [])
+    {
+        return $this->model->with($relationships)->where($fields)->get();
+    }
+
 
 }

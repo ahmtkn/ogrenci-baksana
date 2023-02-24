@@ -109,6 +109,14 @@
       <path value="$PROJECT_DIR$/projects/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/projects/vendor/tijsverkoyen/css-to-inline-styles" />
       <path value="$PROJECT_DIR$/projects/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/projects/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/projects/vendor/myclabs/php-enum" />
+      <path value="$PROJECT_DIR$/projects/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/projects/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/projects/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/projects/vendor/maatwebsite/excel" />
+      <path value="$PROJECT_DIR$/projects/vendor/maennchen/zipstream-php" />
+      <path value="$PROJECT_DIR$/projects/vendor/realrashid/sweet-alert" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />

@@ -94,19 +94,17 @@
     <div class="container">
         <div class="row">
             <div class="col text-center mb-5">
-                <h1 class="display-4">Bootstrap 4 Cards With Background Image</h1>
-                <p class="lead">Lorem ipsum dolor sit amet at enim hac integer volutpat maecenas pulvinar. </p>
+                <h1 class="display-4">Kampanyalar</h1>
             </div>
         </div>
         <div class="row">
             @foreach($campaigns as $campaign)
             <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
-                <div class="card text-white card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
-                    <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
+                <div class="card text-white card-has-bg click-col" style="background-image:url({{ asset('assets/common/img/coupon.svg') }});">
                     <div class="card-img-overlay d-flex flex-column">
                         <div class="card-body">
                             <small class="card-meta mb-2">{{ $campaign->name ?? "" }}</small>
-                            <h4 class="card-title mt-0 "><a class="text-white" herf="#">Goverment Lorem Ipsum Sit Amet Consectetur dipisi?</a></h4>
+                            <h4 class="card-title mt-0 "><a class="text-white" href="{{ route('campaign.coupon.list') }}?slug={{ $campaign->slug }}">Kampanya Detayı</a></h4>
                             <small><i class="far fa-clock"></i> Başlangıç: {{ $campaign->start_date ? date_format(date_create($campaign->start_date),'d/m/Y') : 0 }}</small>
                             <small><i class="far fa-clock"></i> Bitiş: {{ $campaign->end_date ? date_format(date_create($campaign->end_date),'d/m/Y')  : 0 }}</small>
                         </div>
